@@ -10,6 +10,9 @@ export default defineConfig({
     port: 3000,
     strictPort: true,
   },
+  preview: {
+    allowedHosts: true,
+  },
   define: {
     'process.env.NODE_ENV': '"production"',
   },

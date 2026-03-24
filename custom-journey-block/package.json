@@ -4,13 +4,14 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "dev": "vite build --watch & npx serve ./dist",
+    "local": "vite",
+    "dev": "npm run build -- --watch & npx serve ./dist",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@epilot/concorde-elements": "^0.0.14",
+    "@epilot/concorde-elements": "^0.0.17",
     "@r2wc/react-to-web-component": "^2.0.4",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"

@@ -27,3 +27,17 @@ h1 {
   color: #2c3e50;
   font-weight: 700;
 }
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+span {
+  color: #7f8c8d;
+  font-size: 0.95rem;
+}
