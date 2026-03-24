@@ -21,7 +21,7 @@ export default defineConfig({
       formats: ['umd'],
       entry: resolve(__dirname, 'src/main.tsx'),
       name: 'index',
-      fileName: 'bundle',
+      fileName: () => 'bundle.js',
     },
     cssCodeSplit: false,
     minify: true,
