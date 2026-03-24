@@ -1,0 +1,20 @@
+{
+  "hooks": [
+    {
+      "id": "get-products",
+      "name": {
+        "de": "Produkte abrufen",
+        "en": "Get Products"
+      },
+      "type": "products",
+      "call": {
+        "method": "POST",
+        "url": "https://api.example.com/products",
+        "headers": {
+          "Content-Type": "application/json",
+          "x-api-key": "{{api_key}}"
+        }
+      }
+    }
+  ]
+}

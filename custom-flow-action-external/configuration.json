@@ -1,0 +1,10 @@
+{
+  "type": "external_integration",
+  "external_integration_settings": {
+    "url": "https://api.example.com/webhook",
+    "headers": {
+      "Content-Type": "application/json",
+      "x-api-key": "{{api_key}}"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "{{name}}",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/handler.ts"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.3",
+    "tsx": "^4.0.0"
+  }
+}

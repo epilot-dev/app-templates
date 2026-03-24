@@ -1,0 +1,15 @@
+{
+  "hooks": [
+    {
+      "type": "registration_identifiers_check",
+      "call": {
+        "method": "POST",
+        "url": "https://api.example.com/portal/register",
+        "headers": {
+          "Content-Type": "application/json",
+          "x-api-key": "{{api_key}}"
+        }
+      }
+    }
+  ]
+}
